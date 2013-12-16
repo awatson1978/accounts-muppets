@@ -18,7 +18,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Chaotic Neutral',
         quote: 'Beat drums!  Beat drums!  Kill!  Kill!  Kill!',
-        avatar: '/avatars/Animal.jpg'
+        avatar: 'Animal.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -32,7 +32,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Chaotic Evil',
         quote: 'Did somebody say bang?',
-        avatar: '/avatars/CrazyHarry.jpg'
+        avatar: 'CrazyHarry.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -46,7 +46,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Lawful Evil',
         quote: 'At last, your family can be protected from the heartbreak of gorilla invasion.',
-        avatar: '/avatars/DrHoneydew.jpg'
+        avatar: 'DrHoneydew.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -60,7 +60,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Neutral Good',
         quote: 'My cousin is so dumb, he thinks eggs benedict is a mafia gangster!',
-        avatar: '/avatars/Fozzy.jpg'
+        avatar: 'Fozzy.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -74,7 +74,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Chaotic Good',
         quote: 'Cancel my bread impersonation act!  They didnt deliver my poppy seeds!  You wouldnt want me to walk out there naked, would you?',
-        avatar: '/avatars/Gonzo.jpg'
+        avatar: 'Gonzo.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -88,7 +88,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Lawful Neutral',
         quote: 'You are all weird.',
-        avatar: '/avatars/SamEagle.jpg'
+        avatar: 'SamEagle.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -102,7 +102,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'True Neutral',
         quote: 'Hey!  Hey, were you goin?  Hey!  Wait for me!  I wanna go to Hollywood!  Wait for me!  Cmon, guys!  Wait, please!  I wanna go to Hollywood!',
-        avatar: '/avatars/Sweetums.jpg'
+        avatar: 'Sweetums.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -116,7 +116,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Lawful Good',
         quote: 'I guess I was wrong when I said I never promised anyone.  I promised me.',
-        avatar: '/avatars/CrazyHarry.jpg'
+        avatar: 'CrazyHarry.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -130,7 +130,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Neutral Evil',
         quote: 'Kermie, it seems that every time we have a beautiful lady on the show, you completely forget about me.',
-        avatar: '/avatars/CrazyHarry.jpg'
+        avatar: 'CrazyHarry.jpg'
       }
     });
     console.info('Account created: ' + userId);
