@@ -130,7 +130,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Neutral Evil',
         quote: 'Kermie, it seems that every time we have a beautiful lady on the show, you completely forget about me.',
-        avatar: '/packages/accounts-muppets/muppets/CrazyHarry.jpg'
+        avatar: '/packages/accounts-muppets/muppets/MsPiggy.jpg'
       }
     });
     console.info('Account created: ' + userId);
