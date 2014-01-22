@@ -116,7 +116,7 @@ Meteor.startup(function () {
         role: 'Muppet',
         alignment: 'Lawful Good',
         quote: 'I guess I was wrong when I said I never promised anyone.  I promised me.',
-        avatar: '/packages/accounts-muppets/muppets/CrazyHarry.jpg'
+        avatar: '/packages/accounts-muppets/muppets/Kermit.jpg'
       }
     });
     console.info('Account created: ' + userId);
