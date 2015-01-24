@@ -79,7 +79,7 @@ Meteor.startup(function () {
         alignment: 'Chaotic Good',
         quote: 'Cancel my bread impersonation act!  They didnt deliver my poppy seeds!  You wouldnt want me to walk out there naked, would you?',
         avatar: '/packages/awatson1978_accounts-muppets/muppets/Gonzo.jpg',
-        thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Gonzo.jpg'        
+        thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Gonzo.jpg'
       }
     });
     console.info('Account created: ' + userId);
@@ -94,7 +94,7 @@ Meteor.startup(function () {
         alignment: 'Lawful Neutral',
         quote: 'You are all weird.',
         avatar: '/packages/awatson1978_accounts-muppets/muppets/SamEagle.jpg',
-        thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/SamEagle.jpg'        
+        thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/SamEagle.jpg'
       }
     });
     console.info('Account created: ' + userId);

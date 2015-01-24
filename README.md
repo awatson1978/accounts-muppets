@@ -7,23 +7,7 @@
 First, install the accounts-muppets package from the command line, like so:
 
 ````
-mrt add accounts-muppets
-````
-
-Alternatively, if you'd like to bypass Atmosphere, and install directly from GitHub, you could update your application's smart.json file, like so:
-
-````js
-{
-  "meteor": {
-    "branch": "master"
-  },
-  "packages": {
-    "accounts-muppets": {
-      "git": "https://github.com/awatson1978/accounts-muppets.git"
-    }
-  }
-}
-
+meteor add awatson1978:accounts-muppets
 ````
 
 
@@ -33,15 +17,16 @@ Alternatively, if you'd like to bypass Atmosphere, and install directly from Git
 The user objects are have a fairly simple document schema that looks like the following:
 ````js
 {
-  username: 'drhoneydew',
-  password: 'drhoneydew',
-  email: 'drhoneydew@test.org',
+  username: 'mspiggy',
+  password: 'mspiggy',
+  email: 'mspiggy@test.org',
   profile: {
-    name: 'Dr. Honeydew',
+    name: 'Ms. Piggy',
     role: 'Muppet',
-    alignment: 'Lawful Evil',
-    quote: 'At last, your family can be protected from the heartbreak of gorilla invasion.',
-    avatar: '/avatars/DrHoneydew.jpg'
+    alignment: 'Neutral Evil',
+    quote: 'Kermie, it seems that every time we have a beautiful lady on the show, you completely forget about me.',
+    avatar: '/packages/awatson1978_accounts-muppets/muppets/MsPiggy.jpg',
+    thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/MsPiggy.jpg'
   }
 }
 ````
@@ -55,20 +40,43 @@ Usernames and passwords for all the users should be the same.  For the most part
 ------------------------
 ### Users List
 
-Animal
-Crazy Harry
-Dr. Honeydew
-Fozzy the Bear
-Gonzo
-Kermit the Frog
-Ms. Piggy
-Sam the Eagle
-Sweetums
+Animal  
+Crazy Harry  
+Dr. Honeydew  
+Fozzy the Bear  
+Gonzo  
+Kermit the Frog  
+Ms. Piggy  
+Sam the Eagle  
+Sweetums  
 
+
+------------------------
+### Example Usage  
+
+````html
+{{#each userList}}
+{{profile.name}}<br>
+{{/each}}
+````
+
+````js
+if (Meteor.isClient) {
+  Meteor.subscribe("users");
+
+  Template.registerHelper('userList', function(){
+    return Meteor.users.find();
+  });
+}
+
+if (Meteor.isServer) {
+  Meteor.publish("users", function(){
+    return Meteor.users.find();
+  });
+}
+````
 
 ------------------------
 ### License
 
 Images are copyright Jim Henson Productions.  Don't use in production without permission.  This package is for private, non-commercial use only.
-
-
