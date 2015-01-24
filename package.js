@@ -12,7 +12,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('accounts-base');
+  api.use('accounts-base@1.1.3');
+  api.use('accounts-password@1.0.5');
 
   api.addFiles('initialize.users.js', 'server');
 
