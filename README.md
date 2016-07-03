@@ -6,9 +6,13 @@
 
 First, install the accounts-muppets package from the command line, like so:
 
-````
+```sh
+# add the muppets to your app
 meteor add awatson1978:accounts-muppets
-````
+
+# add them to your database
+Muppets=true meteor
+```
 
 
 ------------------------
