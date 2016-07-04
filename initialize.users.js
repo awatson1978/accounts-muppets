@@ -17,7 +17,7 @@ Meteor.startup(function () {
           name: {
             text: 'Animal',
             given: 'Animal',
-            family: 'Meyham'            
+            family: 'Meyham'
           },
           role: 'Muppet',
           alignment: 'Chaotic Neutral',
@@ -192,7 +192,7 @@ Meteor.startup(function () {
         email: 'mspiggy@test.org',
         profile: {
           name: {
-            text: 'Ms. Piggy'
+            text: 'Ms. Piggy',
             given: 'Piggy',
             family: 'Lee'
           },
