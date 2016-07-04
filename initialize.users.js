@@ -22,8 +22,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Chaotic Neutral',
           quote: 'Beat drums!  Beat drums!  Kill!  Kill!  Kill!',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/Animal.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Animal.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/Animal.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Animal.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -45,8 +47,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Chaotic Evil',
           quote: 'Did somebody say bang?',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/CrazyHarry.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/CrazyHarry.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/CrazyHarry.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/CrazyHarry.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -67,8 +71,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Lawful Evil',
           quote: 'At last, your family can be protected from the heartbreak of gorilla invasion.',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/DrHoneydew.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/DrHoneydew.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/DrHoneydew.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/DrHoneydew.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -89,8 +95,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Neutral Good',
           quote: 'My cousin is so dumb, he thinks eggs benedict is a mafia gangster!',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/Fozzy.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Fozzy.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/Fozzy.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Fozzy.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -112,8 +120,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Chaotic Good',
           quote: 'Cancel my bread impersonation act!  They didnt deliver my poppy seeds!  You wouldnt want me to walk out there naked, would you?',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/Gonzo.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Gonzo.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/Gonzo.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Gonzo.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -134,8 +144,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Lawful Neutral',
           quote: 'You are all weird.',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/SamEagle.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/SamEagle.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/SamEagle.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/SamEagle.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -155,8 +167,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'True Neutral',
           quote: 'Hey!  Hey, were you goin?  Hey!  Wait for me!  I wanna go to Hollywood!  Wait for me!  Cmon, guys!  Wait, please!  I wanna go to Hollywood!',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/Sweetums.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Sweetums.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/Sweetums.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Sweetums.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -177,8 +191,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Lawful Good',
           quote: 'I guess I was wrong when I said I never promised anyone.  I promised me.',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/Kermit.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Kermit.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/Kermit.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/Kermit.jpg'
         }
       });
       console.info('Account created: ' + userId);
@@ -199,8 +215,10 @@ Meteor.startup(function () {
           role: 'Muppet',
           alignment: 'Neutral Evil',
           quote: 'Kermie, it seems that every time we have a beautiful lady on the show, you completely forget about me.',
-          avatar: '/packages/awatson1978_accounts-muppets/muppets/MsPiggy.jpg',
-          thumbnail: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/MsPiggy.jpg'
+          photo: [{
+            url: '/packages/awatson1978_accounts-muppets/muppets/MsPiggy.jpg'
+          }],
+          avatar: '/packages/awatson1978_accounts-muppets/muppets/thumbnails/MsPiggy.jpg'
         }
       });
       console.info('Account created: ' + userId);
