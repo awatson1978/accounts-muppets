@@ -2,7 +2,7 @@ Package.describe({
   summary: "Adds muppets to the Meteor.users collection.",
 
   // update this value before you run 'meteor publish'
-  version: "1.1.0",
+  version: "1.3.0",
 
   // if this value isn't set, meteor will default to the directory name
   name: "awatson1978:accounts-muppets",
@@ -12,8 +12,11 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.use('accounts-base@1.1.3');
-  api.use('accounts-password@1.0.5');
+  api.use('ecmascript@0.13.0');
+  // api.use('accounts-base@1.1.3');
+  // api.use('accounts-password@1.0.5');
+
+  api.use('clinical:hl7-fhir-data-infrastructure');
 
   api.addFiles('initialize.users.js', 'server');
 
@@ -36,4 +39,12 @@ Package.on_use(function (api) {
   api.addFiles('muppets/thumbnails/MsPiggy.jpg', "client", {isAsset: true});
   api.addFiles('muppets/thumbnails/SamEagle.jpg', "client", {isAsset: true});
   api.addFiles('muppets/thumbnails/Sweetums.jpg', "client", {isAsset: true});
+
+  api.addFiles('server/initialize.js', 'server');
 });
+
+Npm.depends({
+  "moment": "2.22.2",
+  "lodash": "4.17.4",
+  "faker": "5.1.0"
+})
